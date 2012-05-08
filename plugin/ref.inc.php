@@ -390,7 +390,7 @@ function plugin_ref_body($args)
 		} else {
 			$params['_body'] = '<img src="' . $url . '" alt="' . $title . '" title="' . $title . '" ' . $info . '/>';
 			if (! $params['nolink'] && $url2)
-				$params['_body'] = '<a href="' . $url2 . '" title="' . $title . '">' . $params['_body'] . '</a>';
+				$params['_body'] = '<a href="' . $url2 . '" title="' . $title . '" rel="lightbox">' . $params['_body'] . '</a>';
 		}
 	} else {
 		$icon = $params['noicon'] ? '' : FILE_ICON;

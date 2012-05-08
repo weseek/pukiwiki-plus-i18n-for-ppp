@@ -288,12 +288,14 @@ if (isset($retvars['body']) && $retvars['body'] != '') {
 
 
 // global $always_menu_displayed;
+/*
 if (arg_check('read')) $always_menu_displayed = 1;
 $body_menu = $body_side = '';
 if ($always_menu_displayed) {
 	if (exist_plugin_convert('menu')) $body_menu = do_plugin_convert('menu');
 	if (exist_plugin_convert('side')) $body_side = do_plugin_convert('side');
 }
+*/
 
 // Output
 catbody($title, $page, $body);
