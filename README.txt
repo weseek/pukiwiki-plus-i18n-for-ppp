@@ -1,5 +1,8 @@
-Welcome to PukiWiki Plus!.
+PukiWiki Plus! for PPP
+======================
 
-Please refer to the ./doc/ directory.
+This project is used by [PukiWiki Plus! Plus!(PPP)][ppp].<br />
+Please see the ppp site.
 
-PukiWiki Plus! Team
+
+[ppp]: https://github.com/yuki-takei/pukiwiki-plus-plus-i18n
